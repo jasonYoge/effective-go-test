@@ -1,10 +1,13 @@
 package main
 
-type square struct {
-	Edge int
-}
-
+import (
+	"effective-go-test/test"
+	"fmt"
+)
 
 func main() {
+	var a = 10
+	var b = 20
 
+	fmt.Println(test.Add(a, b))
 }
