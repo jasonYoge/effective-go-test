@@ -22,7 +22,7 @@ func main() {
 	_, ok := <-c
 	if ok {
 		fmt.Println("Channel is open!")
-	} else {
+} else {
 		fmt.Println("Channel is closed!")
 	}
 }
